@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+  body
+    #root {{message}}
+    script(src="/assets/lib/vue/main/vue.js")
+    script: :lsc
+      app = new Vue do
+        el: \#root
+        data:
+          message: "hello world!"
+

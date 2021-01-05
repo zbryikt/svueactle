@@ -1,0 +1,23 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx server -r web -o true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fedep": "0.0.12",
+    "template": "github:zbryikt/template#v2.1.8",
+    "vue": "^2.6.12"
+  },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "vue"
+    ]
+  }
+}

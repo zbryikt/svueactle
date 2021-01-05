@@ -1,0 +1,27 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx server -r web -o true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "fedep": "0.0.12",
+    "object-assign": "^4.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "template": "github:zbryikt/template#v2.1.8"
+  },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "react",
+      "react-dom"
+    ]
+  }
+}

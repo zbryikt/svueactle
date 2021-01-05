@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+  body
+    #root
+    script(src="/assets/lib/react/main/umd/react.development.js")
+    script(src="/assets/lib/react-dom/main/umd/react-dom.development.js")
+    script(type="module").
+      class MyComponent extends React.Component {
+        render() {
+          return React.createElement("div", null, `Hello ${this.props.toWhat}`);
+        }
+      }
+      ReactDOM.render(
+        React.createElement(MyComponent, {toWhat: "World"}, null),
+        document.getElementById("root")
+      );
+        
