@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+npx babel --plugins @babel/plugin-transform-react-jsx web/src/jsx/index.jsx > web/static/jsx/index.js

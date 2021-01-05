@@ -10,11 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browserify": "^17.0.0",
-    "fedep": "0.0.12",
-    "object-assign": "^4.1.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "@babel/polyfill": "^7.12.1",
     "template": "github:zbryikt/template#v2.1.8"
   },
   "frontendDependencies": {
@@ -23,5 +19,11 @@
       "react",
       "react-dom"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
   }
 }
