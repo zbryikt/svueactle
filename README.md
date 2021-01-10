@@ -56,4 +56,4 @@ similar to AngularJS.
  - state: N/A
    - data from `data or `context`. ( `new ldView({context})` )
    - ? always manage state outside ldView. e.g., use `datahub`, `datadom` with `json0`.
-
+   - ? adopt `observer` tech?
